@@ -1,0 +1,64 @@
+.chamado {
+    height: 60px;
+    width: calc(100% -20px);
+    display:flex;
+    margin:10px;
+    
+}
+.chamado:nth-child(odd) {
+    background-color: aliceblue;
+}
+.chamado:nth-child(even) {
+    background-color: rgb(200, 200, 200);
+}
+
+.info-id-chamado {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #000;
+}
+
+.infos-chamado {
+    width: 100%;
+    display: flex;
+    border-top: 2px dashed #000;
+    border-bottom: 2px dashed #000;
+}
+.info-chamado {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px dashed #000;
+    
+}
+.title {
+    width: 100%;
+    height: 20px;
+    border-bottom: 2px dashed #000;
+
+}
+.content-chamado {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buttom-closeChamado{
+    background-color: rgb(71, 0, 0);
+    width: 100px;
+    height: calc(100% - 20px);
+    margin: 10px;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttom-closeChamado:hover {
+    background-color: #000;
+}
+

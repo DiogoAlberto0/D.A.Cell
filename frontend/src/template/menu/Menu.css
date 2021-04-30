@@ -1,0 +1,24 @@
+.menu {
+    background-color: #000;
+    display:flex;
+    justify-content: space-between;
+}
+.menu-div {
+    display: flex;
+}
+.menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.menu-items:hover {
+    background-color: rgb(71, 0, 0);
+}
+.menu-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.menu-link:visited {
+    color: rgb(255, 255, 255);
+}

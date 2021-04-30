@@ -1,0 +1,10 @@
+.admin {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    min-height: 100%;
+    max-height: calc(100vh - 150px);
+}

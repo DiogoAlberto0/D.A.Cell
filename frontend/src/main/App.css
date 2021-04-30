@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Trajan;
+    src: url('../assets/trajan-pro.otf');
+}
+* {
+    font-family: Trajan;
+}
+
+.app {
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(95, 95, 95);
+
+    display: grid;
+
+    grid-template-rows: 30px 1fr 20px;
+}

@@ -1,0 +1,28 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+.buttom-accept {
+    background-color: rgb(71, 0, 0);
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttom-decline {
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

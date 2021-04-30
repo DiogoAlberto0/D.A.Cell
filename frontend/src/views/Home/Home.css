@@ -1,0 +1,30 @@
+.home {
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+.home-container {
+    height: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(167, 167, 167, 0.192);
+    display: flex;
+    flex-direction: column;
+}
+.home-content-text {
+    height: 100%;
+}
+.home-content-buttoms {
+    display: flex;
+    justify-content: space-evenly;
+}
+.link {
+    text-decoration: none;
+    color: #fff;
+}
